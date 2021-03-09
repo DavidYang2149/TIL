@@ -13,12 +13,12 @@ module.exports = {
   title: 'DavidYang TIL',
   tagline: '오늘의 배운 것',
   url: 'https://github.com/DavidYang2149',
-  baseUrl: '/',
+  baseUrl: '/TIL/',
   onBrokenLinks: 'throw',
+  projectName: 'til',
+  organizationName: 'davidyang2149',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/knight.ico',
-  organizationName: 'davidyang2149',
-  projectName: 'til',
   themeConfig: {
     navbar: {
       title: 'Today I Learned',
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'GitHub(TIL)',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/DavidYang2149/TIL',
             },
           ],
         },
