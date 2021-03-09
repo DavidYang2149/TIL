@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'DavidYang TIL',
+  tagline: '오늘의 배운 것',
+  url: 'https://github.com/DavidYang2149/TIL',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/knight.ico',
+  organizationName: 'davidyang2149',
+  projectName: 'til',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Today I Learned',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Program Knight',
+        src: 'img/kisa.svg',
       },
       items: [
         {
@@ -22,9 +22,9 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/DavidYang2149/TIL',
           label: 'GitHub',
           position: 'right',
         },
