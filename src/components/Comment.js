@@ -15,7 +15,7 @@ function Comment() {
       const script = document.createElement('script');
 
       script.src = 'https://utteranc.es/client.js';
-      script.setAttribute('repo', 'davidyang2149/TIL');
+      script.setAttribute('repo', 'DavidYang2149/TIL');
       script.setAttribute('issue-term', 'title');
       script.setAttribute('label', 'comment');
       script.setAttribute('theme', utterancesTheme);
