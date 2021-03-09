@@ -1,7 +1,18 @@
+const { appendPath, getFirstContent } = require('./src/utils');
+const { CATEGORY_SLUGS } = require('./src/constants');
+
+const docNavs = Object.entries(CATEGORY_SLUGS).map(([category, categorySlug]) => ({
+  to: getFirstContent(category),
+  activeBasePath: appendPath('docs', category),
+  label: categorySlug,
+}));
+
+const docFooters = docNavs.map(({ to, label }) => ({ to, label }));
+
 module.exports = {
   title: 'DavidYang TIL',
   tagline: '오늘의 배운 것',
-  url: 'https://github.com/DavidYang2149/TIL',
+  url: 'https://github.com/DavidYang2149',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,10 +28,9 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
+          items: [...docNavs],
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
@@ -35,31 +45,18 @@ module.exports = {
       links: [
         {
           title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
+          items: [...docFooters],
         },
         {
-          title: 'Community',
+          title: 'Personal Links',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'davidyang2149.dev',
+              href: 'https://davidyang2149.dev',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/davidyang2149',
             },
           ],
         },
@@ -71,7 +68,7 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
+              label: 'GitHub(TIL)',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
