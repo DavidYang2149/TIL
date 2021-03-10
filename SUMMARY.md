@@ -2,6 +2,15 @@
 
 * [Today I Learned](README.md)
 
+## DOCS
+
+* [HTML](docs/html/README.md)
+  * [1. HTML에 관하여](docs/html/1.-html.md)
+* [CSS](docs/css/README.md)
+  * [1. CSS에 관하여](docs/css/1.-css.md)
+* [JavaScript](docs/javascript/README.md)
+  * [1. Javascript에 관하여](docs/javascript/1.-javascript.md)
+
 ## TIL
 
 * [20.10](til/20.10/README.md)
@@ -31,13 +40,4 @@
   * [200930\_TIL](til/20.09/200930.md)
 * [memo](til/memo/README.md)
   * [코드숨 포트폴리오 프로젝트](til/memo/project1.md)
-
-## DOCS
-
-* [HTML](docs/html/README.md)
-  * [1. HTML에 관하여](docs/html/1.-html.md)
-* [CSS](docs/css/README.md)
-  * [1. CSS에 관하여](docs/css/1.-css.md)
-* [JavaScript](docs/javascript/README.md)
-  * [1. Javascript에 관하여](docs/javascript/1.-javascript.md)
 
