@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Today I Learned](README.md)
-  * [CodeSoom Spring](readme/codesoom-spring.md)
 * [20.09](20.09/README.md)
   * [200914\_TIL](20.09/200914.md)
   * [200915\_TIL](20.09/200915.md)
@@ -29,3 +28,4 @@
   * [201006\_TIL](20.10/201006.md)
 * [memo](memo/README.md)
   * [코드숨 포트폴리오 프로젝트](memo/project1.md)
+* [CodeSoom Spring](codesoom-spring.md)
